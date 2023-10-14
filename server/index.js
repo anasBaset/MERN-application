@@ -30,7 +30,7 @@ app.use(morgan("common"));
 app.use(bodyParser.json({ limit: "30mb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 app.use(cors({
-  origin :["https://mern-application-silk.vercel.app/"],
+  origin :['https://mern-application-l1t3rnn07-anasbaset.vercel.app/'],
   methods: ["GET","POST","PATCH"],
   credentials:true
 }));
